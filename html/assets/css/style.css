@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
+
+:root {
+    --mainColor: #8b3cff;
+}
+
+body {
+    display: none;
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]:focus {
+    outline: none;
+}
+
+.main-container {
+    background: #000305d6;
+    width: 30vw;
+    height: 8vh;
+    justify-content: center;
+    margin: auto;
+    margin-top: 68vh;
+    border-radius: 1.3vh 1.3vh 0 0;
+}
+
+#name-ped {
+    text-align: left;
+    font-family: Poppins, sans-serif;
+    font-size: 1.2vw;
+    font-weight: 700;
+    padding-left: 0.7vw;
+    margin-top: 1vh;
+    color: var(--mainColor);
+}
+
+#ped-say {
+    text-align: left;
+    font-family: Poppins, sans-serif;
+    font-size: 1vw;
+    font-weight: 600;
+    padding-left: 0.7vw;
+    margin-top: -2.5vh;
+    color: white;
+}
+
+.option {
+    color: var(--mainColor);
+    padding-left: 1vw;
+    padding-top: 1vh;
+    margin-top: 3.5vh;
+    font-family: Poppins, sans-serif;
+    font-size: 1vw;
+    font-weight: 600;
+    transition: 0.5s all;
+    height: 3.5vh;
+    border-radius: 0.4vw;
+    cursor: pointer;
+}
+
+.option:hover{
+    background-color: var(--mainColor);
+    color: white;
+}
+
+.text-option {
+    color: white;
+    text-align: left;
+    padding-left: 2vw;
+    margin-top: -2.7vh;
+}
+
+.button-1 {
+    position: absolute;
+    height: 3.5vh;
+    margin-top: 2.8vh;
+}
+
+#option1 {
+    display: block;
+}
+
+#option1-change {
+    display: none;
+}
+
+#option2 {
+    display: block;
+}
+
+#option2-drugs-select1 {
+    display: none;
+}
+#option2-drugs-select2 {
+    display: none;
+}
+#option2-drugs-select3 {
+    display: none;
+}
+
+#option3 {
+    display: block;
+}
+
+.drugs-input {
+    position: absolute;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.496);
+    color: white;
+    border: none;
+    width: 26.5vw;
+    height: 4vh;
+    margin-top: 1vh;
+    font-family: Poppins, sans-serif;
+    font-size: 1vw;
+    font-weight: 600;
+    padding-left: 0.5vw;
+}
+
+.drugs-sell-confirm-button {
+    position: relative;
+    display: none;
+    color: white;
+    background-color: var(--mainColor);
+    font-size: 1.2vw;
+    width: 3vw;
+    height: 4.1vh;
+    margin-top: 2.8vh;
+    margin-left: 26.9vw;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+}
+
+.drugs-sell-confirm-button:hover {
+    background-color: #741afa;
+}

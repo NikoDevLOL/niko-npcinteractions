@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loading</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <p id="name-ped">Jack</p>
+        <p id="ped-say">Co chcesz?</p>
+        <!-- OPTION 1 -->
+        <div id="option1" class="option" onclick="option(1)">
+            <i class="fa-solid fa-circle"></i>
+            <p id="option-1-text-edit" class="text-option">Co się dzieje w mieście?</p>
+        </div>
+        <div id="option1-change" class="option" onclick="option(1)">
+            <i class="fa-solid fa-circle"></i>
+            <p id="option-1-change-text-edit" class="text-option">Co się dzieje w mieście?</p>
+        </div>
+        <!-- OPTION 2 -->
+        <div id="option2" class="option" onclick="option(2)">
+            <i class="fa-solid fa-circle"></i>
+            <p id="option-2-text-edit" class="text-option">Zaproponuj narkotyki.</p>
+        </div>
+        <div id="option2-drugs-select1" class="option" onclick="drugsOption(1)">
+            <i class="fa-solid fa-circle"></i>
+            <p id="option-2-text-edit" class="text-option">Meta</p>
+        </div>
+        <div id="option2-drugs-select2" class="option" onclick="drugsOption(2)">
+            <i class="fa-solid fa-circle"></i>
+            <p id="option-2-text-edit" class="text-option">Marihuana</p>
+        </div>
+        <div id="option2-drugs-select3" class="option" onclick="drugsOption(3)">
+            <i class="fa-solid fa-circle"></i>
+            <p id="option-2-text-edit" class="text-option">Opium</p>
+        </div>
+        <div class="option2-drugs-price-offer">
+            <input class="drugs-input" type="number" id="drugs-input" placeholder="Propozycja Ceny">
+        </div>
+        <div class="drugs-sell-confirm-button" onclick="sellDrugs()">
+            <i class="fa-solid fa-check"></i>
+        </div>
+        <!-- OPTION 3 -->
+        <div id="option3" class="option" onclick="option(3)">
+            <i class="fa-solid fa-circle"></i>
+            <p id="option-3-text-edit" class="text-option">Już nic.</p>
+        </div>
+    </div>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
