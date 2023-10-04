@@ -1,4 +1,4 @@
-ESX.RegisterServerCallback('niko-sellMeth', function(source, cb, sellPrice)
+ESX.RegisterServerCallback('niko-drugfirst', function(source, cb, sellPrice)
     local xPlayer = ESX.GetPlayerFromId(source)
     local item = xPlayer.getInventoryItem(Config.DrugsItems[1])
     local randomcash = math.random(Config.DrugOneMaxPrice[1], Config.DrugOneMaxPrice[2])
@@ -28,7 +28,7 @@ ESX.RegisterServerCallback('niko-sellMeth', function(source, cb, sellPrice)
     end
 end)
 
-ESX.RegisterServerCallback('niko-sellWeed', function(source, cb, sellPrice)
+ESX.RegisterServerCallback('niko-drugsecond', function(source, cb, sellPrice)
     local xPlayer = ESX.GetPlayerFromId(source)
     local item = xPlayer.getInventoryItem(Config.DrugsItems[2])
     local randomcash = math.random(Config.DrugTwoMaxPrice[1], Config.DrugTwoMaxPrice[2])
@@ -58,7 +58,7 @@ ESX.RegisterServerCallback('niko-sellWeed', function(source, cb, sellPrice)
     end
 end)
 
-ESX.RegisterServerCallback('niko-sellOpium', function(source, cb, sellPrice)
+ESX.RegisterServerCallback('niko-drugthird', function(source, cb, sellPrice)
     local xPlayer = ESX.GetPlayerFromId(source)
     local item = xPlayer.getInventoryItem(Config.DrugsItems[3])
     local randomcash = math.random(Config.DrugThreeMaxPrice[1], Config.DrugThreeMaxPrice[2])

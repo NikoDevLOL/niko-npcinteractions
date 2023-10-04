@@ -44,7 +44,6 @@ Config.PedsModels = {
     "a_m_m_malibu_01",
     "a_m_m_mexcntry_01",
     "a_m_m_mexlabor_01",
-    "a_m_m_og_boss_01",
     "a_m_m_paparazzi_01",
     "a_m_m_polynesian_01",
     "a_m_m_prolhost_01",
